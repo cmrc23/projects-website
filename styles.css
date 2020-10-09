@@ -2,14 +2,39 @@ h1 {
   font-size: 26px;
   color:Black;
   font-family: Futura, Helvetica, Arial, Sans-Serif;
+  text-align: center;
 }
 
 p {
   font-size: 24px;
   color:Black;
   font-family: Futura, Helvetica, Arial, Sans-Serif;
+  text-align: center;
+}
+
+.button{
+	background-color: Black;
+	font-size: 24px;
+	color:White;
+	font-family: Futura, Helvetica, Arial, Sans-Serif;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+	float: center;
+	opacity: 1
+	transition: 1s;
+}
+
+.button:hover {
+	opacity: 0.7;
 }
 
 body {
   background-color: white;
 }
+

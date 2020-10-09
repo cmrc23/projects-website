@@ -5,13 +5,24 @@
 <title>xadeon website</title>
 </head>
 <body>
+
 <h1>heading text</h1>
 <p>body text</a></p>
 
-<button id="myButton" class="float-left submit-button" >page 2</button>
+
+<button class="button" id="photosbutton">photos</button>	
+<button class="button" id="graphicsbutton">graphics</button>
+
+
 <script type="text/javascript">
-    document.getElementById("myButton").onclick = function () {
-        window.location.href= "page2.html";
+    document.getElementById("photosbutton").onclick = function () {
+        window.location.href= "photos.html";
+    };
+</script>
+
+<script type="text/javascript">
+    document.getElementById("graphicsbutton").onclick = function () {
+        window.location.href= "graphics.html";
     };
 </script>
 
