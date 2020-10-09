@@ -22,12 +22,14 @@ p {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
+	height:60px;
+    width:130px;
 	border-radius: 3px;
 	cursor: pointer;
 	border: none;
 	float: center;
-	opacity: 1
-	transition: 1s;
+	opacity: 1;
+	transition: 0.3s;
 }
 
 .button:hover {
@@ -38,3 +40,8 @@ body {
   background-color: white;
 }
 
+.center {
+  padding: 70px 0;
+  border: none;
+  text-align: center;
+}
