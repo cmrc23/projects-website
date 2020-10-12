@@ -1,12 +1,16 @@
+html {
+font-size: 100%;
+}
+
 h1 {
-  font-size: 26px;
+  font-size: 2rem;
   color:Black;
   font-family:  "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
 p {
-  font-size: 24px;
+  font-size: 1.25rem;
   color:Black;
   font-family: "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -14,7 +18,7 @@ p {
 
 .button{
 	background-color: Black;
-	font-size: 24px;
+	font-size: 1rem;
 	color:White;
 	font-family: "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
 	padding: 15px 32px;
