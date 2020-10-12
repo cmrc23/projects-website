@@ -1,14 +1,14 @@
 h1 {
   font-size: 26px;
   color:Black;
-  font-family: Futura, Helvetica, Arial, Sans-Serif;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
 p {
   font-size: 24px;
   color:Black;
-  font-family: Futura, Helvetica, Arial, Sans-Serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@ p {
 	background-color: Black;
 	font-size: 24px;
 	color:White;
-	font-family: Futura, Helvetica, Arial, Sans-Serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
