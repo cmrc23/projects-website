@@ -1,28 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <title>xadeon website</title>
     <script src="../js/index.js" defer></script>
 </head>
 <body>
 
-<div class="topnav">
-	<a class="active" href="#home">Home</a>
-	<a href="#projects">Projects</a>
-	<a href="#about">About</a>
- 	<input type="text" placeholder="Search..">
-</div>
-	
-<h1>Welcome to my website!</h1>
-<p>Here you will find projects I am working on, and projects I have worked on in the past.</a></p>
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Pages v
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a class="button" id="photosoption">Photos</a>
+      <a id="graphicsoption" class="button">Graphics</a>
+      <a id="codeoption" class="button">Code</a>
+    </div>
+    </div> 
+  </div>
+
+<h1>heading text</h1>
+<p>body text</a></p>
+
 
 <div class="center">
-	<button class="button" id="photosbutton">Photos</button>	
-	<button class="button" id="graphicsbutton">Graphics</button>
-	<button class="button" id="codebutton">Code</button>
+	<button class="butt" id="photosbutton">photos</button>	
+	<button class="butt" id="graphicsbutton">graphics</button>
+	<button class="butt" id="codebutton">code</button>
 </div>
+
+
 
 </body>
 </html>
