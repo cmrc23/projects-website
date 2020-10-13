@@ -70,9 +70,9 @@ body {
 	float: left;
 	color: White;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 0.9rem 1rem;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 1rem;
 }
 
 .topnav a:hover {
@@ -103,8 +103,8 @@ body {
     text-align: left;
     width: 100%;
     margin: 0;
-    padding: 14px;
+    padding: 0.9rem;
   }
   .topnav input[type=text] {
-    border: 1px solid #ccc;
+    border: 0.2rem solid #ccc;
   }
