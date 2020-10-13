@@ -1,3 +1,14 @@
+document.getElementById("photosoption").onclick = function () {
+    window.location.href= "photos.html";
+};
+
+document.getElementById("graphicsoption").onclick = function () {
+    window.location.href= "graphics.html";
+};
+document.getElementById("codeoption").onclick = function () {
+    window.location.href= "code.html";
+};
+
 document.getElementById("photosbutton").onclick = function () {
     window.location.href= "photos.html";
 };
@@ -15,7 +26,7 @@ function myFunction() {
   
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(e) {
-    if (!e.target.matches('.dropbtn')) {
+    if (!e.target.matches('.dropbtn')) || !e.target.matches('.activedropbtn')) {
     var myDropdown = document.getElementById("myDropdown");
       if (myDropdown.classList.contains('show')) {
         myDropdown.classList.remove('show');
