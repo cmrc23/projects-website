@@ -1,26 +1,26 @@
 html {
-font-size: 100%;
+	font-size: 100%;
 }
 
 img {
-  max-width:100%;
-  height:auto;
+	max-width:100%;
+	height:auto;
 }
 
 h1 {
-  font-size: 2.2rem;
-  font-weight:600;
-  color:Black;
-  font-family:  "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
-  text-align: center;
+	font-size: 2.2rem;
+	font-weight:600;
+	color:Black;
+	font-family:  "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 
 p {
-  font-size: 1.2rem;
-  font-weight:300;
-  color:Black;
-  font-family: "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
-  text-align: center;
+	font-size: 1.2rem;
+	font-weight:300;
+	color:Black;
+	font-family: "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 
 .butt{
@@ -28,13 +28,13 @@ p {
 	font-size: 1rem;
 	color:White;
 	font-family: "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
-	padding: 1rem 2rem;
+	padding: 1rem 2rem 1rem 2rem;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 1.3rem;
-	height: 5rem;
-    width: 10rem;
+	height: 4rem;
+    width: 9rem;
 	border-radius: 0.3rem;
 	cursor: pointer;
 	border: none;
@@ -54,6 +54,7 @@ p {
 
 body {
 	background-color: white;
+	margin: 0;
 }
 
 .center {
@@ -83,7 +84,7 @@ body {
 }
 
 .navbar input[type=text] {
-    float: right;
+	float: right;
     padding: 0.4rem;
     font-size: 1.2rem;
     font-family: "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
@@ -101,7 +102,7 @@ body {
 }
 
 input[type=text]:focus {
-  width: 25%;
+	width: 25%;
 }
 
 .dropdown {
