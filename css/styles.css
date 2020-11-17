@@ -34,10 +34,11 @@ p {
 	display: inline-block;
 	font-size: 1.3rem;
 	height: 4rem;
-    width: 9rem;
+    	width: 9rem;
 	border-radius: 0.3rem;
 	cursor: pointer;
 	border: none;
+	outline: none;
 	float: center;
 	opacity: 1;
 	transition: 0.3s;
@@ -67,7 +68,7 @@ body {
 	overflow: hidden;
 	background-color: Black;
 	font-family: "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
-  }
+}
   
 .navbar a {
 	float: left;
@@ -78,16 +79,16 @@ body {
 	text-decoration: none;
 }
 
-.navbar a.active {
-    background-color: White;
-    color: Black;
+.navbar a.active{
+    	background-color: White;
+    	color: Black;
 }
 
 .navbar input[type=text] {
 	float: right;
-    padding: 0.4rem;
-    font-size: 1.2rem;
-    font-family: "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
+    	padding: 0.4rem;
+    	font-size: 1.2rem;
+    	font-family: "Helvetica Neue", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
 	width: 2rem;
 	box-sizing: border-box;
 	border: none;
@@ -109,20 +110,34 @@ input[type=text]:focus {
 	float: left;
 	overflow: hidden;
 }
+
+.dropdown .activedropbtn{
+	cursor: pointer;
+	font-size: 1rem;
+	border: none;
+	outline: none;
+	background-color: White;
+	color: Black;
+	padding: 0.9rem 1rem;
+	font-family: inherit;
+	margin: 0;
+}
   
 .dropdown .dropbtn{
 	cursor: pointer;
 	font-size: 1rem;
 	border: none;
 	outline: none;
-	color: white;
+	background-color: Black;
+	color: White;
 	padding: 0.9rem 1rem;
 	background-color: inherit;
 	font-family: inherit;
 	margin: 0;
 }
-  
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+
+
+.navbar a:hover, .dropdown:hover, .dropbtn:hover, .dropbtn:focus {
 	background-color: White;
 	color: Black;
 }
